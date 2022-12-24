@@ -10,8 +10,12 @@ Share the osd font library you made or get your favorite.
     - You need to confirm that the FW version is >= **7.66.120**.
     - copy `*.bmp` to your sd card, the path is `resource/OSD/FC/`, if the path does not exist, please create it.
     - Renamed `*.bmp` to `FC_VARIANT_000.bmp`. For betaflight, the corresponding file name is `BTFL_000.bmp`.
-  - For sharkbyte vrx and hdzero vrx4:
+  - For sharkbyte vrx:
     - You need to confirm that the FW version is **40.8F.4E**.
+    - copy `*.bmp` to your sd card, the path is `Resource/`, if the path does not exist, please create it.
+    - Renamed `*.bmp` to `FC_VARIANT.bmp`. For betaflight, the corresponding file name is `BTFL.bmp`.
+  - For hdzero vrx4:
+    - You need to confirm that the FW version is **xx.xx.xx**.
     - copy `*.bmp` to your sd card, the path is `Resource/`, if the path does not exist, please create it.
     - Renamed `*.bmp` to `FC_VARIANT.bmp`. For betaflight, the corresponding file name is `BTFL.bmp`.
 
