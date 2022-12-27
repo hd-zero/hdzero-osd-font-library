@@ -23,7 +23,7 @@ Share the osd font library you made or get your favorite.
 
 - font file format:
 
-  - .bmp format, 24bit color
+  - .bmp format, version 3 (in current release), 24bit color
   - Font size is 24x36
   - Font spacing of 0 or 6 pixels
   - if(r,g,b)==(127,127,127). Pixels are transparent.
