@@ -23,6 +23,11 @@ Share the osd font library you made or get your favorite.
     - copy `*.bmp` to your sd card, the path is `Resource/`, if the path does not exist, please create it.
     - Renamed `*.bmp` to FC_VARIANT.bmp for **40.2A.4A**. For betaflight, the corresponding file name is `BTFL.bmp`.
     - Renamed `*.bmp` to `FC_VARIANT_000.bmp` for newer than **40.2A.4A**. For betaflight, the corresponding file name is `BTFL_000.bmp`.
+  - for ScoutHD:
+
+    - You need to confirm that the FW version is >= **41.26.46**.
+    - copy `*.bmp` to your sd card, the path is `Resource/`, if the path does not exist, please create it.
+    - Renamed `*.bmp` to `FC_VARIANT_000.bmp` . For betaflight, the corresponding file name is `BTFL_000.bmp`.
 
 # How to upload your custom osd font
 
