@@ -7,21 +7,31 @@ Share the osd font library you made or get your favorite.
 - Select a font file (`*.bmp`) you like in the folder according to FC VARIANT.For betaflight, the corresponding folder name is `BTFL`.
 - Copy `*.bmp` to SDCard and rename it.
   - For hdzero goggle:
+
     - You need to confirm that the FW version is >= **7.66.120**.
     - copy `*.bmp` to your sd card, the path is `resource/OSD/FC/`, if the path does not exist, please create it.
     - Renamed `*.bmp` to `FC_VARIANT_000.bmp`. For betaflight, the corresponding file name is `BTFL_000.bmp`.
   - For sharkbyte vrx:
-    - You need to confirm that the FW version is **40.8F.4E**.
+
+    - You need to confirm that the FW version is >= **40.8F.4E**.
     - copy `*.bmp` to your sd card, the path is `Resource/`, if the path does not exist, please create it.
-    - Renamed `*.bmp` to `FC_VARIANT.bmp`. For betaflight, the corresponding file name is `BTFL.bmp`.
+    - Renamed `*.bmp` to `FC_VARIANT.bmp` for **40.8F.4E**. For betaflight, the corresponding file name is `BTFL.bmp`.
+    - Renamed `*.bmp` to `FC_VARIANT_000.bmp` for newer than **40.8F.4E**. For betaflight, the corresponding file name is `BTFL_000.bmp`.
   - For hdzero vrx4:
-    - You need to confirm that the FW version is **40.2A.4A**.
+
+    - You need to confirm that the FW version is >= **40.2A.4A**.
     - copy `*.bmp` to your sd card, the path is `Resource/`, if the path does not exist, please create it.
-    - Renamed `*.bmp` to `FC_VARIANT.bmp`. For betaflight, the corresponding file name is `BTFL.bmp`.
+    - Renamed `*.bmp` to FC_VARIANT.bmp for **40.2A.4A**. For betaflight, the corresponding file name is `BTFL.bmp`.
+    - Renamed `*.bmp` to `FC_VARIANT_000.bmp` for newer than **40.2A.4A**. For betaflight, the corresponding file name is `BTFL_000.bmp`.
+  - for ScoutHD:
+
+    - You need to confirm that the FW version is >= **41.26.46**.
+    - copy `*.bmp` to your sd card, the path is `Resource/`, if the path does not exist, please create it.
+    - Renamed `*.bmp` to `FC_VARIANT_000.bmp` . For betaflight, the corresponding file name is `BTFL_000.bmp`.
 
 # How to upload your custom osd font
 
-- font file format:
+- Font file format:
 
   - .bmp format, version 3 (in current release), 24bit color
   - Font size is 24x36
@@ -30,6 +40,6 @@ Share the osd font library you made or get your favorite.
 - Font file naming rules:
   In order to avoid file name conflicts as much as possible, the naming rules are as follows:
   "FC_VARIANT" _ "username" _ "style" _ "version" .bmp
-  Such as BTFL_ligen_colorful_v1.0.0.bmp
+  Such as `BTFL_ligen_colorful_v1.0.0.bmp`
 - PR rules:
   Please show a picture of it working correctly when submitting a PR.
